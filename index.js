@@ -4,7 +4,7 @@ const cfg require('./index.json');
 const token = process.env.token; 
 const prefix = (cfg.prefix);
 bot.on('ready', function () {
-    console.log("Je suis prêt à être utilisé.")
+    console.log("c'est partie !!!")
     bot.user.setActivity('rien').catch(console.error)
 });
 
